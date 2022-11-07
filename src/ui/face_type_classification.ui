@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>827</width>
+    <width>1071</width>
     <height>411</height>
    </rect>
   </property>
@@ -78,22 +78,17 @@
           </property>
           <item>
            <property name="text">
-            <string>Low_Pass_Filter</string>
+            <string>Method 1</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>High_Pass_Filter</string>
+            <string>Method 2</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>Median_Filter</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>Laplacian_Filter</string>
+            <string>Method 3</string>
            </property>
           </item>
          </widget>
@@ -111,12 +106,12 @@
           </property>
           <item>
            <property name="text">
-            <string>GRAY</string>
+            <string>mediapipe</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>RGB</string>
+            <string>Dlib</string>
            </property>
           </item>
          </widget>

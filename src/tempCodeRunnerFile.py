@@ -1,1 +1,1 @@
-        self.centralWidget().layout().addWidget(self.faceClassifier)
+(self.faceClassifier
