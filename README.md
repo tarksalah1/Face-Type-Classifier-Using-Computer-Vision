@@ -1,6 +1,6 @@
 # face-Type-Classifier
 - [Description](#description)
-- [Test Your Face Type](#Check_Your_Face_Type)
+- [Check Your Face Type](#Check_Your_Face_Type)
 - [Team Members](#Team_Members)
 - [Run App](#Run_App)  
 
