@@ -1,8 +1,8 @@
 # face-Type-Classifier
-- [Description](#Description)
-- [Test Your Face Type](#Test Your Face)
-- [Team Members](#Team Members)
-- [Run App](#Run App)  
+- [Description](#description)
+- [Test Your Face Type](#Test_Your_Face)
+- [Team Members](#Team_Members)
+- [Run App](#Run_App)  
 
 
 ## Description
@@ -14,10 +14,10 @@
 - you will see the feature according which we classified your face.
 - Run the app and check for your face type 😊.
 
-## Test Your Face Type
+## Test_Your_Face_Type
 ![Composer](docs/demo.gif)
 
-## Team members
+## Team_members
 | Name         |Profile|
 |--------------|--------|
 | Ahmed Gamil |[Ahmed_Gamil](https://github.com/Ahmed-Gamiel)|
@@ -32,7 +32,7 @@
 
 
 
-## Run App
+## Run_App
 ```sh
 python MainApplication.py
 ```
