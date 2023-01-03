@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_8">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Face Detection</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QSplitter" name="splitter_8">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QWidget" name="horizontalLayoutWidget_2">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QPushButton" name="browse_button_1">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Browse</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="detect_button">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Detect Faces</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="switch_tabs_button">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Move to Landmarks</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QSplitter" name="splitter_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QSplitter" name="splitter_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_3">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Original Image</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget_3">
+             <layout class="QVBoxLayout" name="verticalLayout"/>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_4">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Faces Detected</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget_4">
+             <layout class="QVBoxLayout" name="verticalLayout_2"/>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Facial Landmarks Algorithms</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QSplitter" name="splitter_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QWidget" name="horizontalLayoutWidget">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QPushButton" name="apply_button">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Apply Algorithm</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="face_type_bt">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Browse</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QSplitter" name="splitter_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QSplitter" name="splitter">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Original Image</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget_2">
+             <layout class="QVBoxLayout" name="original_image_layout"/>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_2">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Image with Landmarks</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget">
+             <layout class="QVBoxLayout" name="processed_image_layout"/>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Face Shape </string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QSplitter" name="splitter_9">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QWidget" name="verticalLayoutWidget_5">
+           <layout class="QVBoxLayout" name="verticalLayout_5"/>
+          </widget>
+          <widget class="QWidget" name="verticalLayoutWidget_6">
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="font">
+               <font>
+                <family>Javanese Text</family>
+                <pointsize>30</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Face Shape</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="font">
+               <font>
+                <family>Frank Ruhl Hofshi</family>
+                <pointsize>25</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>.....</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Image Data</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="font">
+           <font>
+            <family>Liberation Serif</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>150</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>58</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>FaceLength</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>cheekBone Width</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>ForeHead</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Jawline Width</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Chin Width</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Angle 1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Angle 2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Angle 3</string>
+           </property>
+          </row>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1006</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
