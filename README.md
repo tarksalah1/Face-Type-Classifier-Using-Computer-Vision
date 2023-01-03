@@ -1,6 +1,6 @@
 # face-Type-Classifier
 - [Description](#description)
-- [Test Your Face Type](#Test_Your_Face_Type)
+- [Test Your Face Type](#Check_Your_Face_Type)
 - [Team Members](#Team_Members)
 - [Run App](#Run_App)  
 
@@ -14,7 +14,7 @@
 - you will see the feature according which we classified your face.
 - Run the app and check for your face type 😊.
 
-## Test_Your_Face_Type
+## Check_Your_Face_Type
 ![Composer](docs/demo.gif)
 
 ## Team_members
