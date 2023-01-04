@@ -27,7 +27,7 @@
 | Anas Mohamed  |[Anasmaklad-web](https://github.com/Anasmaklad-web)|
 | Abdelrahman Hassan  |[Abdelrahmanhassan1](https://github.com/Abdelrahmanhassan1)|
 | Abdelrahman Ashraf   |[Abdelrahman-Ashraf1](https://github.com/Abdelrahman-Ashraf1)|
-| Tark Salah |[tarksalah](https://github.com/tarksalah)|
+| Tark Salah |[tarksalah](https://github.com/tarksalah1)|
 | Ahmed Wael  |[Ahmedwael-afk](https://github.com/Ahmedwael-afk)|
 
 
